@@ -1,0 +1,21 @@
+* {
+    font-family: 'Lucida Sans Unicode';
+}
+
+.container {
+    border: 1px solid blue;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+img {
+    width: 250px;
+}
