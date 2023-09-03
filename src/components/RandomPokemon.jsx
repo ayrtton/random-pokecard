@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import "../assets/RandomPokemon.css";
 
 function RandomPokemon({ pokemonQuantity = 151 }) {
@@ -11,5 +12,9 @@ function RandomPokemon({ pokemonQuantity = 151 }) {
         </div>
     );
 }
+
+RandomPokemon.propTypes = {
+    pokemonQuantity: PropTypes.number,
+};
 
 export default RandomPokemon;
