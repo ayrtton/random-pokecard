@@ -2,20 +2,20 @@
     font-family: 'Lucida Sans Unicode';
 }
 
-.container {
+.RandomPokemon {
     border: 1px solid blue;
     border-radius: 12px;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 50%;
-    margin: auto;
+    margin: 3vh auto;
 }
 
-h1 {
+.RandomPokemon h1 {
     color: blueviolet;
 }
 
-img {
+.RandomPokemon img {
     width: 250px;
 }
