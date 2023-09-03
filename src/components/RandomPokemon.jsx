@@ -1,7 +1,7 @@
 import "../assets/RandomPokemon.css";
 
-function RandomPokemon() {
-    let randomValue = Math.floor(Math.random() * 151) + 1;
+function RandomPokemon({ pokemonQuantity = 151 }) {
+    let randomValue = Math.floor(Math.random() * pokemonQuantity) + 1;
     let imageUrl = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${randomValue}.png`
 
     return (

@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <div>
-        <RandomPokemon/>
+        <RandomPokemon pokemonQuantity={ 10 } />
       </div>
     </>
   );
