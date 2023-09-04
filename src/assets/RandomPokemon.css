@@ -3,17 +3,12 @@
 }
 
 .RandomPokemon {
-    border: 1px solid blue;
     border-radius: 12px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
+    width: 45%;
     margin: 3vh auto;
-}
-
-.RandomPokemon h1 {
-    color: blueviolet;
 }
 
 .RandomPokemon img {

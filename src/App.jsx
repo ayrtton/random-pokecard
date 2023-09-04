@@ -6,6 +6,7 @@ function App() {
     <>
       <div>
         <RandomPokemon pokemonQuantity={ 10 } />
+        <RandomPokemon pokemonQuantity={ 20 } />
       </div>
     </>
   );
